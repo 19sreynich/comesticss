@@ -1,0 +1,96 @@
+body{
+	background: lightblue;
+	background-image: url('../images/bg.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 14px;
+	color: darkgray;
+}
+#header{
+	background: green;
+	color: white;
+	padding: 7px;
+	text-align: right;
+}
+#container{
+	background: rgba(255,255,255,0.7);
+	width: 950px;
+	margin: 0 auto;
+}
+#logo{
+	padding: 7px 50px;
+
+}
+#menu ul{
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+#menu ul li{
+ display: inline-block;
+    padding: 8px 16px;
+}
+
+#menu li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#menu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#footer{
+	background: green;
+	color: white;
+	padding: 7px;
+	text-align: center;
+}
+#welcome{
+	padding-left: 20px; 
+}
+#food_cate ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+#food_cate ul li{
+	display: inline-block;
+	margin: 5px 10px;
+	padding: 5px;
+}
+#food_cate ul li a{
+	color: green;
+	text-decoration: none;
+}
+#food_cate ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.food{
+	float: left;
+	width: 160px;
+	padding: 7px;
+	text-align: center;
+	color: green;
+}
+.food img{
+	width: 100%;
+	height: 120px;
+}
+.clear{
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+}
